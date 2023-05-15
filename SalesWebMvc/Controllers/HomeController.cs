@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System.Diagnostics;
 
 namespace SalesWebMvc.Controllers
@@ -17,6 +17,7 @@ namespace SalesWebMvc.Controllers
         {
             ViewData["studant"] = "Guilherme Moreira da Silva";
             ViewData["message"] = "Salles Web MVC App from C# Course";
+
             return View();
         }
 
