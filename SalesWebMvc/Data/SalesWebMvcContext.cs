@@ -11,7 +11,7 @@ namespace SalesWebMvc.Data
     {
         public SalesWebMvcContext (DbContextOptions<SalesWebMvcContext> options)
             : base(options)
-        {
+        {  
         }
 
         public DbSet<Department> Department { get; set; } = default!;
